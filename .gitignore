@@ -14,3 +14,7 @@ terminal.txt
 /phpunit.xml
 /.phpunit.cache/
 ###< phpunit/phpunit ###
+
+# Ignore password vault files
+/vault/secure-vault.json
+/vault/secure-vault.salt
