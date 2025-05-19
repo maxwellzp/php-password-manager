@@ -4,6 +4,8 @@
 # Put parameters here that don't need to change on each machine where the app is deployed
 # https://symfony.com/doc/current/best_practices.html#use-parameters-for-application-configuration
 parameters:
+    vault_file_path: '%env(resolve:VAULT_FILE_PATH)%'
+    salt_file_path: '%env(resolve:SALT_FILE_PATH)%'
 
 services:
     # default configuration for services in *this* file
